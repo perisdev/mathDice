@@ -17,16 +17,17 @@ let dados = {
   listaDados: document.getElementsByClassName('dado'),
   valores: [],
   objetivo: 0,
-  
-  '1': './img/uno.png',
-  '2': './img/dos.png',
-  '3': './img/tres.png',
-  '4': './img/cuatro.png',
-  '5': './img/cinco.png',
-  '6': './img/seis.png',
 
+  listaImgs: {
+    '1': './img/uno.png',
+    '2': './img/dos.png',
+    '3': './img/tres.png',
+    '4': './img/cuatro.png',
+    '5': './img/cinco.png',
+    '6': './img/seis.png',
+  },
   dameImg(valor) {
-    return this[`${valor}`];
+    return this.listaImgs[`${valor}`];
   },
 
   lanzaDados(numDados3, numDados6) {
