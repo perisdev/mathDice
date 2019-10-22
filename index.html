@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mathDice</title>
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <main>
+    <img src="./img/mathDice.png" alt="titulo">
+
+    <!-- Seccion Config -->
+    <section class="config">
+      <label for="numDados3">Dados de 3:</label>
+      <input type="text" name="numDados3" id="numDados3" value="3">
+      <p></p>
+      <label for="numDados6">Dados de 6:</label>
+      <input type="text" name="numDados6" id="numDados6" value="2">
+      <p></p>
+      <button id="btApply">Apply</button>
+    </section>
+
+    <!-- Seccion Dados -->
+    <div class="wrapperDados">
+      <div class="dados" id="dados">
+      </div>
+      <div class="dado f12">
+        <p id="objetivo"></p>
+      </div>
+    </div>
+
+    <!-- Seccion Jugador -->
+    <section class="jugador" id="jugador1">
+      <p>JUGADOR - 1</p>
+      <div class="entrada">
+        <input type="text" id="entradaJug1" name="entradaJug1">
+        <button class="btJug1" id="btJug1">Test</button>
+        <input type="text" id="salidaJug1" name="salidaJug1" readonly>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/sprites.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
