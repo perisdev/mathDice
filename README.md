@@ -2,4 +2,4 @@
 
 > Práctica para trabajar con JS, elementos DOM y listeners.
 
-Link demo [aquí](https://spperis.github.io/mathDice/)
+Link demo [aquí](https://perisdev.github.io/mathDice/)
